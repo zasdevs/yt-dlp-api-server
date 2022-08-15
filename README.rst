@@ -11,4 +11,4 @@ About
 
 Credit & More
 -------------
-Special Credit & Thanks To ``jaimeMF/youtube-dl-api-server`` `jaimeMF <https://github.com/jaimeMF/youtube-dl-api-server>`_. Who Give Spend The Time For Written This Script For US Under Free Public License. For Documentation see the `Read the Docs <https://youtube-dl-api-server.readthedocs.org/>`_.
+Special Credit & Thanks To ``jaimeMF/youtube-dl-api-server`` `jaimeMF <https://github.com/jaimeMF/youtube-dl-api-server>`_. Who Spend The Time For Written This Script For US. For Documentation see the `Read the Docs <https://youtube-dl-api-server.readthedocs.org/>`_.
