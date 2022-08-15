@@ -4,12 +4,12 @@ from setuptools import setup
 
 setup(
     name='youtube_dl_server',
-    version='0.3',
-    description='An API server based on youtube_dl',
-    long_description='Get the videos from different sites using a server running youtube_dl',
-    author='Jaime Marquínez Ferrándiz',
-    author_email='jaime.marquinez.ferrandiz@gmail.com',
-    url='https://github.com/jaimeMF/youtube-dl-api-server',
+    version='0.4',
+    description='An API server based on yt-dlp',
+    long_description='Get the videos from different sites using a server running yt-dlp',
+    author='zasdevs',
+    author_email='zasdevs@gmail.com',
+    url='https://github.com/zasdevs/yt-dlp-api-server.git',
     packages=['youtube_dl_server'],
     entry_points={
         'console_scripts': [
