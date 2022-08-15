@@ -169,7 +169,7 @@ API methods
 Test server
 -----------
 
-You can try the API by doing requests to ``http://youtube-dl.appspot.com``.
+You can try the API by doing requests to ``https://zyts.herokuapp.com``.
 
 
 
