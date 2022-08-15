@@ -176,8 +176,8 @@ def list_extractors():
 @set_access_control
 def version():
     result = {
-        'youtube-dl': yt_dlp_version,
-        'youtube-dl-api-server': __version__,
+        'yt-dlp': yt_dlp_version,
+        'yt-dlp-api-server': __version__,
     }
     return jsonify(result)
 
