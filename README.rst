@@ -1,4 +1,4 @@
-yt_dlp-api-server
+zasdevs/yt-dlp-api-server
 =====================
 
 A REST API server for getting the info for videos from different sites, powered by `yt-dlp <https://github.com/yt-dlp/yt-dlp>`_.
@@ -7,7 +7,7 @@ The installation instructions and the documentation are available at `Read the D
 About
 -----
 
-``yt_dlp-api-server`` is released to the public domain, read the `license <LICENSE>`_ for more info.
+``yt-dlp-api-server`` is released to the public domain, read the `license <LICENSE>`_ for more info.
 
 Credit & More
 -------------
