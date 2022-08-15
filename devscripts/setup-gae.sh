@@ -22,14 +22,14 @@ pip install -r "${GAE_REQ}" -U
 
 echo "Copying python packages to ${LIB_DIR}"
 SITE_PACKAGES=$(echo "${VENV}"/lib/*/site-packages)
-cp -R "${SITE_PACKAGES}/youtube_dl" "${LIB_DIR}"
+cp -R "${SITE_PACKAGES}/yt_dlp" "${LIB_DIR}"
 cp -R "${SITE_PACKAGES}/flask" "${LIB_DIR}"
 cp -R "${SITE_PACKAGES}/werkzeug" "${LIB_DIR}"
 cp -R "${SITE_PACKAGES}/itsdangerous.py" "${LIB_DIR}"
 cp -R "${SITE_PACKAGES}/click" "${LIB_DIR}"
 
 (
-    cd "${LIB_DIR}/youtube_dl"
-    echo 'Patching youtube_dl'
-    "${ROOT}/devscripts/gae-patch-youtube-dl.sh"
+    cd "${LIB_DIR}/yt_dlp"
+    echo 'Patching yt_dlp'
+    "${ROOT}/devscripts/gae-patch-yt_dlp.sh"
 )
