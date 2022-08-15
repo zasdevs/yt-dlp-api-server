@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='youtube_dl_server',
-    version='0.3',
+    version='0.5',
     description='An API server based on yt-dlp',
     long_description='Get the videos from different sites using a server running yt-dlp',
     author='zasdevs',
