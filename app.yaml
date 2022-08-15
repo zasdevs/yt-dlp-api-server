@@ -23,3 +23,19 @@ libraries:
   version: latest
 - name: jinja2
   version: "2.6"
+
+skip_files:
+# Default values from https://developers.google.com/appengine/docs/python/config/appconfig#Python_app_yaml_Skipping_files
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?.*/RCS/.*$
+- ^(.*/)?\..*$
+# Custom values
+- ^VENV.*$
+- ^.*\.egg.*$
+- ^gae/VENV$
+- ^dist/.*$
+- ^docs/.*$
+- ^test/.*$
+- ^devscripts/.*$
