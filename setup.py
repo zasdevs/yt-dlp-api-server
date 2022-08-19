@@ -19,7 +19,7 @@ setup(
 
     install_requires=[
         'Flask',
-        'yt-dlp >= 2022.08.14',
+        'yt-dlp >= 2022.08.19',
     ],
 
     classifiers=[
